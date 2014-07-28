@@ -1,0 +1,3 @@
+winswitch::
+  lookup:
+    master: winswitch-master
