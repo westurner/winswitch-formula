@@ -1,0 +1,3 @@
+rdesktop:
+  pkg:
+    - installed

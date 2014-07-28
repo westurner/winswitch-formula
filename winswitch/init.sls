@@ -5,3 +5,7 @@ winswitch:
   pkg:
     - installed
     - name: {{ winswitch.pkg }}
+
+include:
+  - winswitch.nx
+  - winswitch.rdp
