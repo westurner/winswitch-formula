@@ -21,5 +21,10 @@ Available states
 ``winswitch``
 -------------------------------------
 
-Installs the winswitch package,
-and starts the associated winswitch service.
+Installs the winswitch package.
+
+
+``winswitch.deb``
+-------------------------------------
+
+Installs the winswitch package from the winswitch.org debian repository.
