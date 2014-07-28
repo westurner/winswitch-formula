@@ -1,11 +1,7 @@
 
-{% from "template/map.jinja" import template with context %}
+{% from "winswitch/map.jinja" import winswitch with context %}
 
-template:
+winswitch:
   pkg:
     - installed
-    - name: {{ template.pkg }}
-  service:
-    - running
-    - name: {{ template.service }}
-    - enable: True
+    - name: {{ winswitch.pkg }}

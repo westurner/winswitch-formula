@@ -1,9 +1,7 @@
 
-{# TODO: s/template/salt_name/g #}
-{% set template = salt['grains.filter_by']({
+{# TODO: s/winswitch/salt_name/g #}
+{% set winswitch = salt['grains.filter_by']({
     'default': {
-        'pkg': 'template',
-        'service': 'template',
-        'config': '/etc/template.conf',
+        'pkg': 'winswitch',
     },
-}, merge=salt['pillar.get']('template:lookup')) %}
+}, merge=salt['pillar.get']('winswitch:lookup')) %}
