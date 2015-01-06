@@ -2,18 +2,18 @@
 # -*- coding: utf-8 -*-
 
 """
-test_winswitch-formula
+test_winswitch_formula
 ----------------------------------
 
-Tests for `winswitch-formula` module.
+Tests for `winswitch_formula` module.
 """
 
 import unittest
 
-from winswitch-formula import winswitch-formula
+from winswitch_formula import winswitch_formula
 
 
-class TestWinswitch-formula(unittest.TestCase):
+class TestWinswitch_formula(unittest.TestCase):
 
     def setUp(self):
         pass
